@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticaFinal.MainPage">
+    <ScrollView>
+        <StackLayout Margin="50">
+       
+        <Label Text="Nombre"/>
+        <Entry Placeholder="Introdusca el nombre"/>
+        <Label Text="Apellido"/>
+        <Entry Placeholder="Introdusca su apellido"/>
+        <Label Text="Sexo"/>
+        <Entry Placeholder="introdusca su genero"/>
+        <Label Text=" Cedula"/>
+        <Entry Placeholder="Introdusca su cedula"/>
+        <Label HorizontalOptions="Start" Text="Fecha de ingreso"/>
+        <DatePicker HorizontalOptions="Start" MinimumDate="02/5/2021"/>
+        <Label HorizontalOptions="Start" Text="Fecha de nacimiento"/>
+        <DatePicker HorizontalOptions="Start"/>
+        <Label Text="Dirección"/>
+        <Entry Placeholder="Dirección"/>
+        <Label Text="Telefono"/>
+        <Entry Placeholder="Numero de telefono"/>
+        <Label Text="Email"/>
+        <Entry Placeholder="Correo electronico"/>
+        <Label Text="Estatus"/>
+            <Picker>
+                <Picker.Items>
+                    <x:String>Activo</x:String>
+                    <x:String>Inactivo</x:String>
+                </Picker.Items>
+            </Picker>
+        
+
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
